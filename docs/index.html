@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Agent Prototype Builder</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem auto; max-width: 900px; line-height: 1.5; }
+      code { background: #f4f4f4; padding: 0.2rem 0.4rem; border-radius: 4px; }
+      .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+    </style>
+  </head>
+  <body>
+    <h1>Multi-Agent Prototype Builder</h1>
+    <p>
+      This website documents the production-style multi-agent pipeline in this repository.
+      The system converts a product idea into a planned, implemented, tested, and evaluated prototype.
+    </p>
+
+    <div class="card">
+      <h2>How it works</h2>
+      <ol>
+        <li>Orchestrator sets milestones and coordinates retries/failures.</li>
+        <li>Specification agent generates PRD, features, stories, and contracts.</li>
+        <li>Architecture agent defines boundaries and tradeoffs.</li>
+        <li>Implementation agent writes runnable prototype files.</li>
+        <li>Testing agent runs unit/integration suites and reports failures.</li>
+        <li>Evaluation agent reports quality/risk/debt and next steps.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Run locally</h2>
+      <p><code>PYTHONPATH=src python -m mas.cli "Your product idea" --output build_outputs</code></p>
+      <p><code>pytest -q</code></p>
+    </div>
+
+    <p>See the repository README for full usage and scaling guidance.</p>
+  </body>
+</html>
