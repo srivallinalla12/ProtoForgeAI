@@ -257,7 +257,7 @@ https://<YOUR_GITHUB_USERNAME>.github.io/ProtoForgeAI/
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/srivallinalla12/Codex_Challenge.git
+git clone https://github.com/srivallinalla12/ProtoForgeAI.git
 ```
 
 ---
@@ -265,7 +265,7 @@ git clone https://github.com/srivallinalla12/Codex_Challenge.git
 ## Navigate into the Project
 
 ```bash
-cd Codex_Challenge
+cd ProtoForgeAI
 ```
 
 ---
