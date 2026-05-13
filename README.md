@@ -199,7 +199,7 @@ build_outputs/iteration_*/prototype
 Website URL:
 
 ```bash
-https://<YOUR_GITHUB_USERNAME>.github.io/ProtoForgeAI/
+https://github.com/srivallinalla12/ProtoForgeAI.git
 ```
 
 Static website source:
